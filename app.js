@@ -259,7 +259,7 @@ const pagarCompraMP = () =>{ //generacion del link de pago y redireccionamiento 
       description: "",
       picture_url: "",
       category_id: prod.idProducto,
-      quantity: prod.cantidad,
+      quantity: parseInt(prod.cantidad),
       currency_id: "ARS",
       unit_price: parseFloat((prod.precioPesosUnitario+prod.impuesto4815Unitario+prod.impuestoPaisUnitario).toFixed(2))
     }
