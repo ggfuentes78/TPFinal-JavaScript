@@ -1,0 +1,81 @@
+[
+    {
+        "img":"img/assistcard.png",
+        "idProducto":"E1",
+        "tipoProducto":"E",
+        "nombreProducto":"Seguro medico Assist-Card",
+        "precioUSD":"100",
+        "descripcion":"Cobertura medica por la totalidad del viaje. Incluye seguro COVID19."
+    },
+    {
+        "img":"img/disney.jpg",
+        "idProducto":"P1",
+        "tipoProducto":"P",
+        "nombreProducto":"Disney Magico",
+        "precioUSD":500,
+        "descripcion":"8 dias 7 noches en Orlando con 6 dias de acceso a parques Disney"
+    },
+    {
+        "img":"img/universal.jpg",
+        "idProducto":"P2",
+        "tipoProducto":"P",
+        "nombreProducto":"Disney + Universal",
+        "precioUSD":1000,
+        "descripcion":"10 dias 9 noches en Orlando con 6 dias de acceso a parques Disney y 3 a Universal Orlando"
+    },
+    {
+        "img":"img/BuschGardensTampa.jpg",
+        "idProducto":"P3",
+        "tipoProducto":"P",
+        "nombreProducto":"Disney + Universal + Busch Garden",
+        "precioUSD":1500,
+        "descripcion":"12 dias 11 noches en Orlando con 6 dias de acceso a parques Disney, 3 a Universal Orlando y 1 a Busch Gardes en Tampa"
+    },
+    {
+        "img":"img/legoland.jfif",
+        "idProducto":"A1",
+        "tipoProducto":"A",
+        "nombreProducto":"Entradas Legoland",
+        "precioUSD":"85",
+        "descripcion":"Entradas parque Legoland"
+    },
+    {
+        "img":"img/seaworld.jfif",
+        "idProducto":"A2",
+        "tipoProducto":"A",
+        "nombreProducto":"Entradas SeaWorld",
+        "precioUSD":"90",
+        "descripcion":"Entradas parque SeaWorld"
+    },
+    {
+        "img":"img/busch.jfif",
+        "idProducto":"A3",
+        "tipoProducto":"A",
+        "nombreProducto":"Entradas Busch Gardens Tampa",
+        "precioUSD":"120",
+        "descripcion":"Entradas parque Busch Gardens Tampa"},
+    {
+        "img":"img/medievaltimes.jfif",
+        "idProducto":"A4",
+        "tipoProducto":"A",
+        "nombreProducto":"Cena Medieval Times",
+        "precioUSD":"65",
+        "descripcion":"Cena en restaurant tematico Medieval Times"
+    },
+    {
+        "img":"img/orlandoeye.jfif",
+        "idProducto":"A5",
+        "tipoProducto":"A",
+        "nombreProducto":"Orlando Eye",
+        "precioUSD":"25",
+        "descripcion":"Vuelta al mundo con vista panoramica de Orlando"
+    },
+    {
+        "img":"img/titanic.jfif",
+        "idProducto":"A6",
+        "tipoProducto":"A",
+        "nombreProducto":"Titanic: First Class Dinner Gala",
+        "precioUSD":"70",
+        "descripcion":"Vivi una Cena de gala de primera clase a bordo del Titanic"
+    }
+]

@@ -1,0 +1,137 @@
+body{
+    margin: 3em 2em 0.5em;
+    padding: 3em 3em 0.5em;
+    background-color: #99D9F2;
+}
+header{
+    background-color: #163E8C;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+h2{
+    color: white;
+}
+.tarjeta{
+    background-color:azure;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    color: darkslategrey;
+    position: initial;
+}
+.btnCarrito{
+    background-color: #163E8C; 
+    background-image: url('../img/carrito50px.png'); 
+    background-repeat: no-repeat; 
+    border-radius: 50%; 
+    border-color: rgb(255, 255, 255); 
+    height: 45px;
+    width: 45px;
+    background-position: center;
+    margin-right: 3rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.modalCarrito{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+
+.carrito{
+    z-index: 10000000;
+    position: initial;
+    margin-top: 6.7em;
+    background-color: white;
+    width: auto;
+    height: auto;
+    max-height: 90%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+.elementoActivo{
+    visibility:visible;
+    opacity: 1;
+}
+
+.elementoClickeable{
+    cursor: pointer;
+}
+
+#moneda{
+    width: auto;
+}
+
+.negrita{
+    font-weight: bolder;
+}
+
+.secciones{
+    background-color:#82B8D9;
+    color: white;
+    border-radius: 10px;
+    margin: 25px 5px;
+    cursor: pointer;
+    position: initial
+}
+
+.pasajeros{
+    display: flex;
+}
+.centrado{
+    text-align: center;
+}
+
+section{
+    position: initial;
+}
+
+div{
+    position: initial;
+}
+
+.btnCentrado {
+    margin-left: 35%;
+}
+.inputCantidad{
+    width: 2rem;
+    height: 2rem;
+    border-color: grey ;
+    border-style: solid;
+    border-width: thin;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.input-group{
+    position:initial
+}
+
+.input-group .btn{
+    position: initial;
+    z-index: unset;
+}
